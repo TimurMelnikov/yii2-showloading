@@ -9,7 +9,7 @@ Yii2 расширение для подключения плагина jQuery sh
 ``` json
 {
     "require": {
-        "timurmelnikov/yii2-showloading": "1.0"
+        "timurmelnikov/yii2-showloading": "dev-master"
     }
 }
 ```
