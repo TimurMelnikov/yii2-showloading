@@ -1,0 +1,27 @@
+{
+    "name": "timurmelnikov/yii2-showloading",
+    "description": "Yii2 расширение для подключения плагина jQuery showLoading",
+    "keywords": [
+        "yii2",
+        "ajax",
+        "showLoading",
+        "widget",
+        "jQuery"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timur Melnikov",
+            "email": "melnilovt@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "timurmelnikov\\widgets\\": ""
+        }
+    }
+}
