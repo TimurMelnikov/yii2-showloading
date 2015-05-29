@@ -1,8 +1,7 @@
 yii2-showloading
 ================
 Yii2 расширение для подключения плагина jQuery showLoading  
-[Demo страница](http://codepen.io/jasondavis/pen/fAzcI)
-Расширение предназначено для наложения картинки Ajax загрузки на блок, при обработке Ajax запроса.
+Расширение предназначено для наложения картинки Ajax загрузки на блок, при обработке Ajax запроса - [демонстрация работы плагина](http://codepen.io/jasondavis/pen/fAzcI).
 
 ## Установка
 Добавить в секцию "require" файла composer.json:
