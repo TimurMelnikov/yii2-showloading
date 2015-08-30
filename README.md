@@ -34,3 +34,34 @@ $('#id-блока').showLoading();
 //Обработка Ajax запроса...
 $('#id-блока').hideLoading();
 ```
+
+Прммер:
+``` php
+//Контейнер, ктоторый будет "накрывть" индикатор загрузки
+<div id="test"></div>
+
+<?php
+//Кнопки 
+echo Html::button('Показать индикатор', ['class' => 'btn btn-primary', 'id' => 'show-button']);
+echo Html::button('Скрыть индикатор', ['class' => 'btn btn-primary', 'id' => 'hide-button']);
+
+//Вызов виджета индикатора
+echo ShowLoading::widget(['loadingType' => 1]);
+
+//Код JavaScript
+$script = <<<JS
+//Показать индикатор        
+$('#show-button').click(function () {
+    $('#test').showLoading();
+});
+//Скрыть индикатор       
+   $('#hide-button').click(function () {
+    $('#test').hideLoading();
+});
+JS;
+
+//Подключение JavaScript
+$this->registerJs($script);
+```
+
+
