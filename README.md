@@ -1,4 +1,4 @@
-yii2-showloading
+yii2-showloading (Больше не поддерживаю! Рекомендую использовать - [Yii2 виджет-обертка для jQuery LoadingOverlay](https://github.com/timurmelnikov/yii2-loading-overlay))
 ================
 Yii2 расширение для подключения плагина jQuery showLoading  
 Расширение предназначено для наложения картинки Ajax загрузки на блок, при обработке Ajax запроса.
